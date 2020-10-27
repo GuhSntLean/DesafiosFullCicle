@@ -1,0 +1,51 @@
+[
+  {
+      "model": "app.classes",
+      "pk": 1,
+      "fields": {
+          "name": "Full Cycle e Estudo de caso",
+          "autor" : "Wesley Willians"
+      }
+  },
+  {
+    "model": "app.classes",
+    "pk": 2,
+    "fields": {
+        "name": "Microsserviço de assinaturas com RabbitMQ e Golang Buffalo",
+        "autor" : "Wesley Willians"
+    }
+  },
+  {
+    "model": "app.classes",
+    "pk": 3,
+    "fields": {
+        "name": "Serverless framework e processamento de pagamentos",
+        "autor" : "Wesley Willians"
+    }
+  },
+  {
+    "model": "app.classes",
+    "pk": 4,
+    "fields": {
+        "name": "Multi-tenancy applications com Django",
+        "autor" : "Luiz Carlos"
+    }
+  },
+  {
+    "model": "app.classes",
+    "pk": 5,
+    "fields": {
+        "name": "Ecommerce com Nest.js, Loopback e ElasticSearch",
+        "autor" : "Luiz Carlos"
+    }
+  },
+  {
+    "model": "app.classes",
+    "pk": 6,
+    "fields": {
+        "name": "Microsserviços com Docker e Kubernetes",
+        "autor" : "Wesley Willians"
+
+    }
+  }
+]

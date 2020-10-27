@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Lista de aulas</h1>
+<table class="blueTable">
+  <thead>
+    <tr>
+      <th>Aula</th>
+      <th>Professor</th>
+    </tr>
+  </thead>
+  <tfoot>
+    {% for classess in classes %}
+    <tr>
+      <td>{{ classess.name }}</td>
+      <td>{{ classess.autor }}</td>
+    </tr>
+  {% endfor %}
+  </tfoot>
+</table>
+
+
+{% endblock %}
+  
